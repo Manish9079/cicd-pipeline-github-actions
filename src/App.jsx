@@ -589,7 +589,7 @@ const PROJS=[
   {title:"Dockerized Web App",desc:"Containerizing a web app using Docker and docker-compose to learn container workflows.",
     tags:["Docker","docker-compose","Nginx","Node.js"],status:"Planned",tc:"tplan",I:Ico.Server,c:"var(--purple)"},
   {title:"CI/CD Pipeline",desc:"Automated CI/CD pipeline using GitHub Actions to test, build, and deploy code automatically.",
-    tags:["GitHub Actions","CI/CD","Automation","DevOps"],status:"Planned",tc:"tplan",I:Ico.Git,c:"var(--green)"},
+    tags:["GitHub Actions","CI/CD","Automation","DevOps"],status:"Completed",tc:"tong",I:Ico.Git,c:"var(--green)"},
 ];
 
 function Projects() {
