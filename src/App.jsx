@@ -485,8 +485,8 @@ const SKILLS = [
     {n:"Networking",t:"tl",s:"Learning"},{n:"Nginx",t:"tl",s:"Learning"},
   ]},
   {title:"Learning Next",I:Ico.Cloud,col:"var(--purple)",bg:"rgba(163,113,247,.08)",items:[
-    {n:"Docker",t:"tu",s:"Upcoming"},{n:"CI/CD",t:"tu",s:"Upcoming"},
-    {n:"GitHub Actions",t:"tu",s:"Upcoming"},{n:"Monitoring",t:"tu",s:"Upcoming"},{n:"Kubernetes",t:"tu",s:"Upcoming"},
+    {n:"Docker",t:"tu",s:"Completed"},{n:"CI/CD",t:"tu",s:"Completed"},
+    {n:"GitHub Actions",t:"tu",s:"Completed"},{n:"Monitoring",t:"tu",s:"Upcoming"},{n:"Kubernetes",t:"tu",s:"Upcoming"},
   ]},
   {title:"Frontend Knowledge",I:Ico.Code,col:"var(--cyan)",bg:"rgba(0,217,245,.08)",items:[
     {n:"HTML",t:"tp",s:"Practicing"},{n:"CSS",t:"tp",s:"Practicing"},
@@ -535,8 +535,8 @@ const STEPS=[
   {t:"Git & GitHub",d:"Version control, branching, pull requests",st:"done"},
   {t:"AWS EC2",d:"Launch instances, security groups, SSH access",st:"cur"},
   {t:"Nginx",d:"Web server config, reverse proxy basics",st:"cur"},
-  {t:"Docker",d:"Containers, Dockerfiles, docker-compose",st:"up"},
-  {t:"CI/CD Pipelines",d:"GitHub Actions, automation workflows",st:"up"},
+  {t:"Docker",d:"Containers, Dockerfiles, Docker Images and Nginx Deployment",st:"done"},
+  {t:"CI/CD Pipelines",d:"GitHub Actions automated build and deployment workflows",st:"done"},
   {t:"Monitoring",d:"Logs, metrics, alerting dashboards",st:"up"},
   {t:"Kubernetes",d:"Orchestration, deployments, scaling",st:"up"},
   {t:"Advanced DevOps",d:"IaC, cloud architecture, best practices",st:"up"},
@@ -587,7 +587,7 @@ const PROJS=[
   {title:"Linux Automation Scripts",desc:"Shell scripts to automate system admin tasks — backups, log rotation, environment setup.",
     tags:["Bash","Linux","Automation","Shell"],status:"Planned",tc:"tplan",I:Ico.Term,c:"var(--cyan)"},
   {title:"Dockerized Web App",desc:"Containerizing a web app using Docker and docker-compose to learn container workflows.",
-    tags:["Docker","docker-compose","Nginx","Node.js"],status:"Planned",tc:"tplan",I:Ico.Server,c:"var(--purple)"},
+    tags:["Docker","docker-compose","Nginx","Node.js"],status:"Completed",tc:"tplan",I:Ico.Server,c:"var(--purple)"},
   {title:"CI/CD Pipeline",desc:"Automated CI/CD pipeline using GitHub Actions to test, build, and deploy code automatically.",
     tags:["GitHub Actions","CI/CD","Automation","DevOps"],status:"Completed",tc:"tong",I:Ico.Git,c:"var(--green)"},
 ];
