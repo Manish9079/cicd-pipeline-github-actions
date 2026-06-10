@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cicd-portfolio
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: cicd-portfolio
+
+  template:
+    metadata:
+      labels:
+        app: cicd-portfolio
+
+    spec:
+      containers:
+      - name: cicd-portfolio
+        image: cicd-portfolio:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
